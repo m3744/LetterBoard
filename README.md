@@ -86,11 +86,7 @@ python3 tools/gen_zhuyin_data.py /tmp/libchewing-data/dict/chewing
 
 ## 後續規劃
 
-- 第二階段（規格 4.2）：常用短句快速鍵、按鍵大小與語音速度調整、家長設定頁（可鎖定）、高對比主題。
-- **字卡**：打出字詞後自動跳出對應的圖卡，加強視覺回饋。圖卡來源待評估：
-  - 香港開源字卡（待確認名稱、內容與授權）
-  - 其他開放授權的 AAC 圖示集，例如 ARASAAC（CC BY-NC-SA）、Mulberry Symbols（CC BY-SA）；使用前需確認授權條款
-- 選字學習使用者常用詞。
+常用短句、對話紀錄、示範模式、字卡、家長設定頁等，開發順序與設計原則見 [`docs/roadmap.md`](docs/roadmap.md)。
 
 ## 授權與第三方元件
 
