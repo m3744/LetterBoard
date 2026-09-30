@@ -90,6 +90,8 @@ python3 tools/gen_zhuyin_data.py /tmp/libchewing-data/dict/chewing
 
 ## 授權與第三方元件
 
+本專案的程式碼、腳本與文件採用 [MIT 授權](LICENSE)。以下第三方元件沿用各自的授權：
+
 - [Megrez](https://github.com/vChewing/Megrez) 5.0.9：LGPL-3.0-or-later，附加 Swift Package 簽署例外條款，見 `licenses/Megrez-CUSTOM_LGPLv3_EXCEPTION.md`。
   > This project includes a Swift package licensed under LGPLv3 with an additional permission granted to allow linking and combining with other modules without requiring a paid Apple Developer ID for code signing. For details, see the CUSTOM_LGPLv3_EXCEPTION.md file included with this project.
 - `Resources/*.tsv` 由[新酷音詞庫 libchewing-data](https://github.com/chewing/libchewing-data) 產生，LGPL-2.1-or-later，見 `licenses/libchewing-data-LGPL-2.1.txt`。
